@@ -16,7 +16,7 @@ app.get("/index.html", (request, response) => {
 });
 
 app.get("/COMMANDS.html", (request, response) => {
-  response.sendFile(__dirname + "/COMMANDS.html");
+  response.sendFile(__dirname);
 });
 
 app.get("*", (request, response) => {
